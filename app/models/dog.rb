@@ -1,6 +1,6 @@
 class Dog
 
-  @@all = [Dog.new("rudolph", "mastiff", 2)]
+  @@all = []
 
   attr_accessor :name, :breed, :age
 
@@ -14,7 +14,7 @@ class Dog
     @@all
   end
 
-  def save
+  def self.save
     @@all << self
   end
 
