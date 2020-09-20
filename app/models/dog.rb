@@ -1,6 +1,6 @@
 class Dog
 
-  @@all = []
+  @@all = [Dog.new("rudolph", "mastiff", 2)]
 
   attr_accessor :name, :breed, :age
 
